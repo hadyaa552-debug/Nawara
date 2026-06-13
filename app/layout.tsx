@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
 export const metadata: Metadata = {
   title: "بارك سايت العاصمة الإدارية — الكازار | Park Sight New Capital Il Cazar",
   description:
@@ -15,7 +14,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar" dir="rtl">
@@ -27,12 +25,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           rel="stylesheet"
         />
         {/* ── Google Ads Tag ── */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039137293" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18214662091" />
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-17039137293');
+          gtag('config', 'AW-18214662091');
         `}} />
       </head>
       <body>{children}</body>
