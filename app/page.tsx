@@ -5,11 +5,11 @@ import { useRouter } from "next/navigation";
 /* ══════════════════════════════════════════
    CONFIG — غيّر الرقم والكود هنا فقط
 ════════════════════════════════════════════ */
-const PHONE        = "01055978559";
-const PHONE_DISPLAY = "0105 597 8559";
-const PHONE_INTL   = "+201055978559";
-const WA_NUMBER    = "201055978559";
-const WEB3_KEY     = "9f87073c-cdca-4e41-94ff-9156edbc42e8";
+const PHONE        = "01110977709";
+const PHONE_DISPLAY = "01110977709";
+const PHONE_INTL   = "+201110977709";
+const WA_NUMBER    = "201110977709";
+const WEB3_KEY     = "8a5df6a8-9f44-4c4a-b743-57ac299499b7";
 const WA_MSG       = "مرحباً، أريد الاستفسار عن مشروع بارك سايت العاصمة الإدارية من الكازار — Park Sight Ilcazar";
 const WA_URL       = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_MSG)}`;
 
