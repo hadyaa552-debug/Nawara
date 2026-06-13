@@ -24,7 +24,7 @@ function trackCall(label = "call") {
   const w = window as any;
   if (w.gtag) {
     w.gtag("event", "conversion", {
-      send_to: "AW-17039137293/vaynCLSHj70cEI208rw_",
+      send_to: "AW-18214662091/UM8SCO33yr4cEMvftu1D",
       value: 1.0,
       currency: "USD",
       event_callback: () => {},
@@ -36,7 +36,7 @@ function trackWA(label = "whatsapp") {
   const w = window as any;
   if (w.gtag) {
     w.gtag("event", "conversion", {
-      send_to: "AW-17039137293/2wO6CLGHj70cEI208rw_",
+      send_to: "AW-18214662091/iJQnCIT9yr4cEMvftu1D",
       value: 1.0,
       currency: "USD",
       event_callback: () => {},
