@@ -1,9 +1,9 @@
 "use client";
 import { useEffect } from "react";
 
-const PHONE_INTL = "+201055978559";
-const PHONE_DISPLAY = "0105 597 8559";
-const WA_URL = `https://wa.me/201055978559?text=${encodeURIComponent("مرحباً، لسه سجلت استمارة في بارك سايت الكازار وعايز أعرف التفاصيل")}`;
+const PHONE_INTL = "+201110977709";
+const PHONE_DISPLAY = "01110977709";
+const WA_URL = `https://wa.me/201110977709?text=${encodeURIComponent("مرحباً، لسه سجلت استمارة في بارك سايت الكازار وعايز أعرف التفاصيل")}`;
 const LOGO = "https://arro-consultancy.com/uploads/2026-06-08-143835-6a26a9bb6e8d2.png";
 
 export default function ThankYou() {
@@ -14,7 +14,7 @@ export default function ThankYou() {
     const w = window as any;
     if (w.gtag) {
       w.gtag("event", "conversion", {
-        send_to: "AW-17039137293/Ie3iCOmajL0cEI208rw_",
+        send_to: "AW-18214662091/gWo1COr3yr4cEMvftu1D",
         value: 1.0,
         currency: "USD",
       });
